@@ -66,6 +66,17 @@ print fat_cat
 
 # Causes an infinite loop of printing the characters in the array
 # They each print in place though, not continuously
-while True:
-    for i in ["/","-","|", "\\","|"]:
-        print "%s\r" % i,
+# while True:
+#     for i in ["/","-","|", "\\","|"]:
+#         print "%s\r" % i,
+
+# Exercise 11
+
+print "How old are you?",
+age = raw_input() # raw_input() works the same as gets.chomp from Ruby
+print "How tall are you?",
+height = raw_input()
+print "How much do you weigh?",
+weight = raw_input()
+
+print "So, you're %r old, %r tall and %r heavy." % (age, height, weight)
