@@ -1,3 +1,5 @@
+## Exercise 5
+
 my_name = 'Zed A. Shaw'
 my_age = 35 #not a lie
 my_height = 74 #inches
@@ -15,3 +17,17 @@ print "His teeth are usually %s depending on the coffee." % my_teeth
 
 print "If I add %d, %d, and %d I get %d." % (my_age, my_height, my_weight,
     my_age + my_height + my_weight)
+
+## Exercise 8
+
+formatter = "%r %r %r %r"
+print formatter % (1,2,3,4)
+print formatter % ("one", "two", "three", "four")
+print formatter % (True, False, False, True)
+print formatter % (formatter, formatter, formatter, formatter)
+print formatter % (
+"I had this thing.",
+"That you could type up right.",
+"But it didn't sing.",
+"So I said goodnight."
+)
