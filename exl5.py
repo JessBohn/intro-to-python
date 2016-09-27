@@ -63,3 +63,9 @@ print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
+
+# Causes an infinite loop of printing the characters in the array
+# They each print in place though, not continuously
+while True:
+    for i in ["/","-","|", "\\","|"]:
+        print "%s\r" % i,
