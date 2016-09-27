@@ -80,3 +80,10 @@ print "How much do you weigh?",
 weight = raw_input()
 
 print "So, you're %r old, %r tall and %r heavy." % (age, height, weight)
+
+# Exercise 12
+
+# Another way to get the raw_input is you can put the question you want the
+# answer for inside the parenthesis for raw_input such as
+age = raw_input("How old are you? ") # The question will appear and the answer
+                            # will be saved as the age variable
