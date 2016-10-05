@@ -1,16 +1,7 @@
 # Exercise 44 - Composition
+from other import Other
 
-class Other(object):
-
-    def override(self):
-        print "OTHER override()"
-
-    def implicit(self):
-        print "OTHER implicit()"
-
-    def altered(self):
-        print "OTHER altered()"
-
+# This is a 'has-a' relationship where Child has-a Other
 class Child(object):
 
     def __init__(self):
